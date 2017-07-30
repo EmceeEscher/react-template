@@ -1,0 +1,9 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "A template for React projects, so I don't have to go through all of these steps every time I create a React project.",
+  "main": "index.js",
+  "repository": "https://github.com/EmceeEscher/react-template.git",
+  "author": "Jacob Brunette <brunette.jacob18@gmail.com>",
+  "license": "MIT"
+}
