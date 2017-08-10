@@ -20,6 +20,20 @@
   "scripts": {
     "compile": "webpack",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "doctor": "rm -rf node_modules && yarn cache clean && yarn",
+    "test": "karma start --single-run --browsers PhantomJS",
+    "test:watch": "karma start --auto-watch"
+  },
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "object-assign": "^4.1.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-test-renderer": "^15.6.1"
   }
 }
